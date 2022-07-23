@@ -33,7 +33,6 @@ A Book Class
 
     main()
 
-Look at the class definition.  It starts with the keyword ``class``.  Then answer the following questions.
 
 Creating More Objects
 ======================================================
