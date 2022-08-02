@@ -27,7 +27,7 @@ If you have quesitons about this study please email Dr. Barbara Ericson at barba
 The parts are:
 
 - Pre Survey - Questions about your experience and confidence in computing
-- Introduction to Problems - Materials to get you familiar with the types of problems in this study
+- Introduction to Problem Types - Materials to get you familiar with the types of problems in this study
 - Introduction to Classes - Learn how to create a class, method, and objects
 - Practice - Practice problems
 - Post Test - Post test problems
