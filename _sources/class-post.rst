@@ -20,7 +20,7 @@ Problems
    :points: 10
 
 .. selectquestion:: class-post-4-Dice-sq
-   :fromid: Clases_Basic_Dice_fix_v2_ac
+   :fromid: Classes_Basic_Dice_fix_v2_ac
    :points: 10
 
 
