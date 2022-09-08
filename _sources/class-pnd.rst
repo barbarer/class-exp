@@ -1,10 +1,10 @@
 Practice
 -----------------------------------------------------
 
-Please answer the following problems to the best
-of your ability without any outside help. You can skip any problem that you
-do not feel qualified to answer or stop working on a problem after you worked on it for
-about five minutes without solving it.
+Please answer
+the following problems to the best of your ability without any
+outside help. You can stop working on a problem after you worked
+on it for about five minutes without solving it.
 
 .. selectquestion:: class-song-pnd-sq
    :fromid: Classes_Basic_Song_nd_pp

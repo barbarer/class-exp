@@ -1,9 +1,10 @@
 Practice
 -----------------------------------------------------
 
-Please try to solve each of the following problems. This practice is **ungraded**. 
-
-Please do not ask for external help and try your best to finish it!
+Please answer
+the following problems to the best of your ability without any
+outside help. You can stop working on a problem after you worked
+on it for about five minutes without solving it.
 
 Problems
 ==============
@@ -27,5 +28,5 @@ Problems
 What to do next
 ============================
 .. raw:: html
-   
+
    <p>Click to finish a survey about your perceptions of your own abilities to complete learning tasks: <b><a href="se-postsurvey.html">Survey</b></p>

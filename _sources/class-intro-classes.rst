@@ -1,4 +1,4 @@
-Introduction to Classes
+Creating Classes
 -----------------------------------------------------------------
 
 Look the code below.  It defines a class.  it also declares *methods* which are
