@@ -100,14 +100,14 @@ about the specified concept(s).
     Functions like <code>def get_odd(nums):</code>
 
 .. poll:: class-prog-se-list-dic-10
-    :option_1: I am unfamiliar with these concepts
-    :option_2: I know what they mean, but have not used them in a program
-    :option_3: I have used these concepts in a program, but am not confident about my ability to use them
-    :option_4: I am confident in my ability to use these concepts in simple programs
-    :option_5: I am confident in my ability to use these concepts in complex programs
+    :option_1: I am unfamiliar with this concept
+    :option_2: I know what it means, but have not used it in a program
+    :option_3: I have used this concept in a program, but am not confident about my ability to use it
+    :option_4: I am confident in my ability to use this concept in simple programs
+    :option_5: I am confident in my ability to use this concept in complex programs
     :results: instructor
 
-    Lists like <code>a = ["red", "green"]</code> and dictionaries like <code>d = {"red": 2, "green": 3}</code>
+    Lists like <code>a = ["red", "green"]</code>
 
 
 .. poll:: class-prog-se-class-obj-11
