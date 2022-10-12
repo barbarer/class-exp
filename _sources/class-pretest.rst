@@ -22,8 +22,8 @@ Problems
       :fromid: pretest-type-compare
       :points: 1
 
-   .. selectquestion:: class-exp-pre-3
-      :fromid: pretest_list_cond_append
+   .. selectquestion:: class-exp-pre-3-v2
+      :fromid: pretest-mult-if
       :points: 1
 
    .. selectquestion:: class-exp-pre-4
