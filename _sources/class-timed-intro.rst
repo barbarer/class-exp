@@ -19,6 +19,11 @@ and finish the exam.
     :width: 650
     :align: center
 
+Practice Timed Exam
+========================
+
+Click the start button to take the practice timed exam.
+
 
 .. timed:: timed_intro-class-exp
    :timelimit: 5
