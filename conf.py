@@ -241,4 +241,4 @@ htmlhelp_basename = 'PythonCoursewareProjectdoc'
 # key_words
 key_words = "Python, Python 3, experiment, test"
 shelf_section = "class-exp"
-course_description = "This interactive ebook was created by a ITiCSE working group led by Dr. Barbara Ericson to test Parsons with and wihtout distractors."
+course_description = "This interactive ebook was created by a ITiCSE working group led by Dr. Barbara Ericson to test Parsons with and without distractors."
