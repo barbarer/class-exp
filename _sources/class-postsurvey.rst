@@ -13,7 +13,6 @@ Please answer the following questions.
 
     What is your major or intended major, or program of study?
 
-
 .. shortanswer:: class-exp-post-3-gender
 
     What is your gender identity (woman, man, non-binary,  etc, prefer not to say)?

@@ -14,7 +14,7 @@ the code area for compiler errors and/or unit test results.
 See the video below for an example.
 
 .. youtube:: piPz0kh8gMk
-    :divid: iwgex-ps-code
+    :divid: ce-ps-code
     :optional:
     :width: 650
     :height: 415
@@ -22,32 +22,35 @@ See the video below for an example.
 
 Try to finish writing the code for the following problem.
 
-.. activecode:: intro-sample-write-code-ps
+.. activecode:: ce-intro-sample-write-code-triple-p3
     :practice: T
     :autograde: unittest
 
-    Write a function called ``double(num)`` that takes a number ``num`` and
-    returns the number times 2. For example, ``double(2)`` should return 4.
-    Look below the code to check for any compiler errors or the results
-    from the test cases.
+    Write a function called ``triple(num)`` that takes a number ``num`` and
+    returns the number times 3. For example, ``triple(2)`` should return 6 and
+    ``triple(-1)`` should return -3.  Look below the code to check for any
+    compiler errors or the results
+    from the test cases.  Be sure to ``return`` the result.
     ~~~~
-    def double(num):
+    def triple(num):
         # write code here
 
-    print(double(2))
+    print(triple(2))
+    print(triple(-1))
 
     ====
     from unittest.gui import TestCaseGui
     class myTests(TestCaseGui):
 
         def testOne(self):
-            self.assertEqual(double(2),4,"double(2)")
-            self.assertEqual(double(3),6,"double(3)")
-            self.assertEqual(double(-1),-2,"double(-1)")
-            self.assertEqual(double(0),0,"double(0)")
-            self.assertEqual(double(11),22,"double(11)")
+            self.assertEqual(triple(2),6,"triple(2)")
+            self.assertEqual(triple(3),9,"triple(3)")
+            self.assertEqual(triple(-1),-3,"triple(-1)")
+            self.assertEqual(triple(0),0,"triple(0)")
+            self.assertEqual(triple(11),33,"triple(11)")
 
     myTests().main()
+
 
 Write Code with Pop-Up Mixed-up Code
 =======================================
@@ -59,7 +62,7 @@ click on the drop down near the top of problem.
 
 .. youtube:: zz4ATp31_vk
     :optional:
-    :divid: iwgex-ps-toggle
+    :divid: ce-ps-toggle
     :width: 650
     :height: 415
     :align: center
@@ -76,7 +79,7 @@ to check your solution.
 See the video below for an example.
 
 .. youtube:: Rf7oWHlo-e0
-    :divid: iwgex-ps-parsons1
+    :divid: ce-ps-parsons1
     :optional:
     :width: 650
     :height: 415
@@ -84,7 +87,7 @@ See the video below for an example.
 
 Try to solve the following mixed-up code problem.  This problem doesn't require any indentation.
 
-.. parsonsprob:: intro-simple-parsons-no-indent-ps
+.. parsonsprob:: ce-intro-simple-parsons-no-indent-ps
    :numbered: left
    :adaptive:
    :practice: T
@@ -101,7 +104,7 @@ Try to solve the following mixed-up code problem.  This problem doesn't require 
 
 Try to solve the following mixed-up code problem. This problem requires indentation.
 
-.. parsonsprob:: intro-simple-parsons-indent-ps
+.. parsonsprob:: ce-intro-simple-parsons-indent-ps
    :numbered: left
    :adaptive:
    :practice: T
@@ -118,7 +121,7 @@ Try to solve the following mixed-up code problem. This problem requires indentat
 
 Try to solve the following mixed-up code problem. This problem requires indentation and has extra blocks that are not needed in a correct solution.
 
-.. parsonsprob:: intro-simple-parsons-indent-with-dist-ps
+.. parsonsprob:: ce-intro-simple-parsons-indent-with-dist-ps
    :numbered: left
    :adaptive:
    :practice: T
@@ -144,7 +147,7 @@ than three blocks left.
 See the video below for an example.
 
 .. youtube:: QejZ7u642IU
-    :divid: iwgex-ps-parsons2
+    :divid: ce-ps-parsons2
     :optional:
     :width: 650
     :height: 415
@@ -154,7 +157,7 @@ See the video below for an example.
 Feedback
 ==================================
 
-.. shortanswer:: iticse-ex1-intro-ps-sa
+.. shortanswer:: ce-ex1-intro-ps-sa
 
    Please provide feedback here. Please share any comments, problems, or suggestions.
 
@@ -167,6 +170,10 @@ What to do next
 .. raw:: html
 
     <script type="text/javascript" >
+
+      function preventBack() { window.history.forward(); }
+      setTimeout("preventBack()", 0);
+      window.onunload = function () { null };
 
       window.onload = function() {
 
