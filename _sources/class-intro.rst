@@ -13,7 +13,7 @@ the code area for compiler errors and/or unit test results.
 
 See the video below for an example.
 
-.. youtube:: piPz0kh8gMk
+.. youtube:: w9hTOJ7iJpE
     :divid: ce-ps-code
     :optional:
     :width: 650
@@ -171,9 +171,10 @@ What to do next
 
     <script type="text/javascript" >
 
-      function preventBack() { window.history.forward(); }
-      setTimeout("preventBack()", 0);
-      window.onunload = function () { null };
+      window.history.pushState(null, null, window.location.href);
+      window.onpopstate = function () {
+        window.history.go(1);
+      }
 
       window.onload = function() {
 
