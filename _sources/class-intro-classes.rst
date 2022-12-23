@@ -92,6 +92,18 @@ doesn't need to have any underscores in it.
 
     main()
 
+    ====
+    from unittest.gui import TestCaseGui
+    class myTests(TestCaseGui):
+
+        def testOne(self):
+            p1 = Person("Barbara", "Ericson")
+            self.assertEqual(p1.initials(),'be',"testing initials for Barbara Ericson")
+            p2 = Person("Enoch", "Obe")
+            self.assertEqual(p2.initials(),"eo", "testing initials for Enoch Obe"
+
+    myTests().main()
+
 Feedback
 ==================================
 
