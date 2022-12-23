@@ -16,7 +16,7 @@ Working with Classes
 SECTION 1: Introduction
 :::::::::::::::::::::::
 
-This study has five parts.  It will take approximately 50 minutes to complete
+This study has five parts.  It will take approximately 60 minutes to complete
 the study.  Please do the parts in order and answer questions to the best
 of your ability without any outside help. You can stop working on a problem after you worked
 on it for about five minutes without solving it.
@@ -42,6 +42,11 @@ What to do next
 .. raw:: html
 
     <script type="text/javascript" >
+
+      window.history.pushState(null, null, window.location.href);
+      window.onpopstate = function () {
+          window.history.go(1);
+      }
 
       window.onload = function() {
 
