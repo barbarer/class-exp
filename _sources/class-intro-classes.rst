@@ -113,8 +113,9 @@ Feedback
 
 What to do next
 ============================
+.. raw:: html
 
-<p>Click on the following link to go the practice problems: <a id="class-practice"><font size="+2">Practice Problems</font></a></p>
+   <p>Click on the following link to go the practice problems: <a id="class-practice"><font size="+2">Practice Problems</font></a></p>
 
 .. raw:: html
 
