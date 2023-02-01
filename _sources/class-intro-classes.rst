@@ -114,33 +114,55 @@ Feedback
 What to do next
 ============================
 
-.. raw:: html
-
-    <p>Click on the following link to go the practice problems: <a id="class-practice"><font size="+2">Practice Problems</font></a></p>
+<p>Click on the following link to go the practice problems: <a id="class-practice"><font size="+2">Practice Problems</font></a></p>
 
 .. raw:: html
 
-    <script type="text/javascript" >
+<script type="text/javascript">
 
-      window.history.pushState(null, null, window.location.href);
-      window.onpopstate = function () {
-        window.history.go(1);
-      }
-
-      window.onload = function() {
-
-        a = document.getElementById("class-practice")
-
-        // randomly pick one of two relative urls
-        var v = Math.floor(Math.random() * 9) + 1;
-        if (v % 2 == 0)
-        {
-              a.href = "class-pwd.html"
+  function getCookie(cname) {
+     let name = cname + "=";
+     let decodedCookie = decodeURIComponent(document.cookie);
+     let ca = decodedCookie.split(';');
+     for(let i = 0; i <ca.length; i++) {
+        let c = ca[i];
+        while (c.charAt(0) == ' ') {
+           c = c.substring(1);
         }
-        else
-        {
-               a.href = "class-pnd.html"
+        if (c.indexOf(name) == 0) {
+           return c.substring(name.length, c.length);
         }
+     }
+     return "";
+  }
 
-        };
-    </script>
+  function setCookie(cname, cvalue) {
+     document.cookie = cname + "=" + cvalue + ";";
+  }
+
+  window.onload = function() {
+
+     a = document.getElementById("class-practice")
+
+     // get prev set cookie
+     var EXP_COOKIE = 'class-exp-dist-or-no'
+     var cond = getCookie(EXP_COOKIE);
+
+     // if no prev set cookie: generate random condition and set cookie
+     if (cond != 'wd' && cond != 'nd') {
+        var v = Math.floor(Math.random() * 2);
+        if (v < 1) {
+            cond = 'wd';
+        } else {
+            cond = 'nd';
+        }
+        setCookie(EXP_COOKIE, cond);
+     }
+
+     if (cond == 'wd') {
+        a.href = "class-pwd.html"
+     } else if (cond == 'nd') {
+        a.href = "class-pnd.html"
+     }
+  };
+</script>

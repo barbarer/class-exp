@@ -15,7 +15,7 @@ to check your solution.
 See the video below for an example.
 
 .. youtube:: Rf7oWHlo-e0
-    :divid: classexp-parsons1-p3
+    :divid: classexp-parsons1-p3-v2
     :optional:
     :width: 650
     :height: 415
@@ -102,8 +102,8 @@ See the video below for an example.
 .. youtube:: w9hTOJ7iJpE
     :divid: classexp-write-code-video-ex
     :optional:
-    :width: 425
-    :height: 344
+    :width: 1020
+    :height: 826
     :align: center
 
 Finish writing the code for the following problem.
