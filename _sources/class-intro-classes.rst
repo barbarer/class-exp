@@ -20,8 +20,8 @@ A Book Class
 
         # initializes the values in a new object called self
         def __init__(self, title, author):
-            self.title = title
-            self.author = author
+            self.title = title   # set title in self to the passed title
+            self.author = author # set author in self to the passsed author
 
         # returns a string with information about the object self
         def __str__(self):
@@ -58,8 +58,8 @@ Once you have defined a class you can use it to create many objects.
 
         # initializes the values in a new object called self
         def __init__(self, first, last):
-            self.first = first
-            self.last = last
+            self.first = first # set first in self to the passed first
+            self.last = last   # set last in self to the passed last
 
         # returns a string with information about the object self
         def __str__(self):
@@ -99,8 +99,8 @@ the current object which is by convention referred to as ``self``.
        
         # initializes the values in a new object called self
         def __init__(self, first, last):
-            self.first = first
-            self.last = last
+            self.first = first # set first in self to the passed first
+            self.last = last   # set last in self to the passed last
 
         # returns a string with information about the object self
         def __str__(self):
