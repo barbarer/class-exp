@@ -28,9 +28,16 @@ A Book Class
             return "title: " + self.title + " author: " + self.author
 
     def main():
+         # calls the __init__ method
          b2 = Book("A Wrinkle in Time", "M. L'Engle")
+
+         # calls the __str__ method
          print(b2)
+
+         # calls the __init__ method
          b1 = Book("Goodnight Moon", "Margaret Wise Brown")
+         
+          # calls the __str__ method
          print(b1)
 
     main()
@@ -59,7 +66,10 @@ Once you have defined a class you can use it to create many objects.
             return self.first + " " + self.last
 
     def main():
+        # calls the __init__ method
         p1 = Person("Barbara", "Ericson")
+
+        # calls the __str__ method
         print(p1)
 
     main()
@@ -77,7 +87,7 @@ the current object which is usually referred to as ``self``.
 .. activecode:: class_person_init_ac1
     :caption: A class to represent a Person
 
-    Change the following Person class to add an ``initials`` method that returns
+    The following Person class has an ``initials`` method that returns
     a string with the first letter in the first name and the first letter in
     the last name in lowercase.
     ~~~~
@@ -93,9 +103,18 @@ the current object which is usually referred to as ``self``.
         def __str__(self):
             return self.first + " " + self.last
 
+        # returns the first characters of the first and last name in lowercase
+        def inititals(self):
+            return self.first[0].lower() + self.last[0].lower()
+
     def main():
+        # calls the __init__ method
         p1 = Person("Barbara", "Ericson")
+
+        # calls the __str__ method
         print(p1)
+
+        # calls the initials method
         print(p1.initials())
 
     main()
