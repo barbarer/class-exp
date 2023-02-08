@@ -14,8 +14,16 @@ on it for about five minutes without solving it.
    :fromid: Classes_Basic_Cat_nd_pp
    :points: 10
 
+.. selectquestion:: class-book-pnd-sq
+   :fromid: Classes_Basic_Book_nd_pp
+   :points: 10
+
 .. selectquestion:: class-account-pnd-sq
    :fromid: Classes_Basic_Account_nd_pp
+   :points: 10
+
+.. selectquestion:: class-square-pnd-sq
+   :fromid: Classes_Basic_Square_nd_pp
    :points: 10
 
 .. selectquestion:: class-fortune-pnd-sq
