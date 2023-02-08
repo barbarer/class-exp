@@ -23,7 +23,7 @@ on it for about five minutes without solving it.
    :points: 10
 
 .. selectquestion:: class-square-pwd-sq
-   :fromid: Classes_Square_Book_wd_pp
+   :fromid: Classes_Basic_Square_wd_pp
    :points: 10
 
 .. selectquestion:: class-fortune-pwd-sq
