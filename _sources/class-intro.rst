@@ -148,7 +148,7 @@ What to do next
 ============================
 .. raw:: html
 
-    <p>Click on the following link to learn how to solve different types of problems in this ebook : <b><a id="intro-class"><font size="+2">Creating Classes</font></a></b></p>
+    <p>Click on the following link to learn how to create new classes : <b><a id="intro-class"><font size="+2">Creating Classes</font></a></b></p>
 
 .. raw:: html
 
