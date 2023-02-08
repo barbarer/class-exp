@@ -36,7 +36,7 @@ A Book Class
 
          # calls the __init__ method
          b1 = Book("Goodnight Moon", "Margaret Wise Brown")
-         
+
           # calls the __str__ method
          print(b1)
 
@@ -78,11 +78,10 @@ Add a Method to a Class
 ======================================================
 
 You can add a new method to a class by adding a new function inside the class.  For example, you can add the ``initials``
-method to the Person class.  The function must take an object of the
-class to work with that by convention we call ``self``. The name of the function
+method to the Person class.  The name of the function
 doesn't need to have any underscores in it.  It only needs to start and end with double 
 underscores if it is a special method like ``__init__`` or ``__str__``.  It does need to take
-the current object which is usually referred to as ``self``.
+the current object which is by convention referred to as ``self``.
 
 .. activecode:: class_person_init_ac1
     :caption: A class to represent a Person
