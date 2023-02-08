@@ -51,7 +51,7 @@ Once you have defined a class you can use it to create many objects.
 .. activecode:: class_person_ac2
     :caption: A class to represent a Person
 
-    Change the following main function to add a person object with your first and last name.
+    Change the following main function to add a new person object.
     ~~~~
     class Person:
         """ Represents a person object """
@@ -71,6 +71,10 @@ Once you have defined a class you can use it to create many objects.
 
         # calls the __str__ method
         print(p1)
+
+        # create an object for another person (calls the __init__ method)
+
+        # print the new object (calls the __str__ method)
 
     main()
 
@@ -103,7 +107,7 @@ the current object which is by convention referred to as ``self``.
             return self.first + " " + self.last
 
         # returns the first characters of the first and last name in lowercase
-        def inititals(self):
+        def initials(self):
             return self.first[0].lower() + self.last[0].lower()
 
     def main():
