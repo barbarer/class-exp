@@ -83,7 +83,7 @@ doesn't need to have any underscores in it.  It only needs to start and end with
 underscores if it is a special method like ``__init__`` or ``__str__``.  It does need to take
 the current object which is by convention referred to as ``self``.
 
-.. activecode:: class_person_init_ac1
+.. activecode:: class_person_init_ac1_v2
     :caption: A class to represent a Person
 
     The following Person class has an ``initials`` method that returns
