@@ -28,17 +28,17 @@ A Book Class
             return "title: " + self.title + " author: " + self.author
 
     def main():
-         # calls the __init__ method
-         b2 = Book("A Wrinkle in Time", "M. L'Engle")
+        # calls the __init__ method
+        b2 = Book("A Wrinkle in Time", "M. L'Engle")
 
-         # calls the __str__ method
-         print(b2)
+        # calls the __str__ method
+        print(b2)
 
-         # calls the __init__ method
-         b1 = Book("Goodnight Moon", "Margaret Wise Brown")
+        # calls the __init__ method
+        b1 = Book("Goodnight Moon", "Margaret Wise Brown")
 
-          # calls the __str__ method
-         print(b1)
+        # calls the __str__ method
+        print(b1)
 
     main()
 
