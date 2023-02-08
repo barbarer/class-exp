@@ -13,15 +13,19 @@ Problems
    :fromid: Classes_Basic_Movie_fix_v3_ac
    :points: 10
 
-.. selectquestion:: class-post-2-Horse-sq
+.. selectquestion:: class-post-2-Rectangle-sq
+   :fromid: Classes_Basic_Rectangle_ac_fix
+   :points: 10
+
+.. selectquestion:: class-post-3-Horse-sq
    :fromid: Classes_Basic_Horse_v2_ac
    :points: 10
 
-.. selectquestion:: class-post-3-GasTank-sq
+.. selectquestion:: class-post-4-GasTank-sq
    :fromid: Classes_Basic_GasTank_ac
    :points: 10
 
-.. selectquestion:: class-post-4-Dice-sq
+.. selectquestion:: class-post-5-Dice-sq
    :fromid: Classes_Basic_Dice_fix_v2_ac
    :points: 10
 
