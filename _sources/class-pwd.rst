@@ -18,8 +18,8 @@ on it for about five minutes without solving it.
    :fromid: Classes_Basic_Book_wd_pp_v2
    :points: 10
 
-.. selectquestion:: class-account-pwd-sq-v2
-   :fromid: Classes_Basic_Account_wd_pp_v2
+.. selectquestion:: class-account-pwd-sq-v3
+   :fromid: Classes_Basic_Account_wd_pp_v3
    :points: 10
 
 .. selectquestion:: class-square-pwd-sq-v3
