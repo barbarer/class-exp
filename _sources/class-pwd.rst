@@ -6,24 +6,24 @@ the following problems to the best of your ability without any
 outside help. You can stop working on a problem after you worked
 on it for about five minutes without solving it.
 
-.. selectquestion:: class-song-pwd-sq
-   :fromid: Classes_Basic_Song_wd3_pp
+.. selectquestion:: class-song-pwd-sq-v4
+   :fromid: Classes_Basic_Song_wd_pp_v4
    :points: 10
 
 .. selectquestion:: class-cat-pwd-sq
    :fromid: Classes_Basic_Cat_wd_pp
    :points: 10
 
-.. selectquestion:: class-book-pwd-sq
-   :fromid: Classes_Basic_Book_wd_pp
+.. selectquestion:: class-book-pwd-sq-v2
+   :fromid: Classes_Basic_Book_wd_pp_v2
    :points: 10
 
-.. selectquestion:: class-account-pwd-sq
-   :fromid: Classes_Basic_Account_wd_pp
+.. selectquestion:: class-account-pwd-sq-v2
+   :fromid: Classes_Basic_Account_wd_pp_v2
    :points: 10
 
-.. selectquestion:: class-square-pwd-sq
-   :fromid: Classes_Basic_Square_wd_pp
+.. selectquestion:: class-square-pwd-sq-v3
+   :fromid: Classes_Basic_Square_wd_pp_v3
    :points: 10
 
 .. selectquestion:: class-fortune-pwd-sq
