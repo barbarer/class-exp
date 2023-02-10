@@ -22,10 +22,6 @@ on it for about five minutes without solving it.
    :fromid: Classes_Basic_Account_nd_pp
    :points: 10
 
-.. selectquestion:: class-square-pnd-sq
-   :fromid: Classes_Basic_Square_nd_pp
-   :points: 10
-
 .. selectquestion:: class-fortune-pnd-sq
    :fromid: Classes_Basic_FortuneTeller_nd_pp
    :points: 10
